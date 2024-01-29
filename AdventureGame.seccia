@@ -1,0 +1,1476 @@
+{
+"general": {
+"version": "11"
+},
+"project": {
+"game": {
+"name": "AdventureGame",
+"version": "1.0.0",
+"width": "1820",
+"height": "1024",
+"font": "Cartoon",
+"brightness": "0.0",
+"contraste": "1.0",
+"saturation": "1.0",
+"lightAmbient": "255",
+"scripts": {
+"init": "// this script is called when a new game is started or when a previous game is loaded\r\n// you can set here your variables that will be initialized even for old savegames"
+},
+"languages": {
+"english": "1",
+"os": "1",
+"native": "English",
+"default": "English"
+},
+"builds": [
+{
+"platform": "WINDOWS",
+"name": "windows"
+},
+{
+"platform": "WINDOWS",
+"name": "play_windows"
+},
+{
+"platform": "WEB",
+"name": "play_web"
+}
+],
+"author": "Gabriel Dalmon"
+},
+"palette": {
+"Blue": 16744448,
+"Brown": 2121888,
+"Cyan": 15266376,
+"DarkGreen": 32768,
+"Gold": 2138336,
+"Gray": 10398381,
+"Green": 5760599,
+"Magenta": 15357406,
+"Maroon": 160,
+"Orange": 33023,
+"Pink": 12632319,
+"Purple": 9519498,
+"Red": 3937500,
+"Silver": 12632256,
+"Yellow": 6356991,
+"White": 16777215
+},
+"layout": {
+"autosave": {
+"active": true,
+"width": 128,
+"height": 128
+},
+"bag": {
+"active": true,
+"x": 1688,
+"width": 128,
+"height": 128,
+"horz": 2,
+"rclick": true
+},
+"detach": {
+"y": 128,
+"width": 128,
+"height": 128,
+"horz": 2,
+"bag": "Enabled"
+},
+"items": {
+"active": true,
+"y": 880,
+"width": 1820,
+"height": 128,
+"horz": 3,
+"vert": 2,
+"bag": "Enabled"
+},
+"legend": {
+"active": true,
+"x": 160,
+"y": 16,
+"width": 1500,
+"height": 32,
+"horz": 3,
+"align": "Top"
+},
+"menu": {
+"active": true,
+"x": 1688,
+"y": 128,
+"width": 128,
+"height": 128,
+"horz": 2,
+"bag": "Enabled"
+},
+"players": {
+"x": 1688,
+"y": 256,
+"width": 128,
+"height": 512,
+"vert": 3,
+"bag": "Enabled"
+},
+"shutup": {
+"active": true,
+"x": 1688,
+"width": 128,
+"height": 128,
+"horz": 2
+}
+}
+},
+"scenario": {
+"board": {
+"nextid": 164,
+"x": 218,
+"sections": [
+{
+"name": "START",
+"width": 128
+},
+{
+"name": "INTRO",
+"desc": "Present context:\r\n\r\n- Venice\r\n- Carnival\r\n- Morning",
+"width": 144
+},
+{
+"name": "MORNING - PREPARE THE CARNIVAL",
+"desc": "The main character helps citizens to prepare the festivities for the afternoon enjoys his free time training his sword skills. ",
+"width": 1976,
+"diagram": {
+"board": {
+"nextid": 3,
+"x": 231,
+"y": 6,
+"boxes": [
+{
+"value": "1. Street on the Grand Canal",
+"x": 762,
+"y": 335
+},
+{
+"id": 1,
+"value": "2. Street on the Grand Canal",
+"x": 550,
+"y": 334
+},
+{
+"id": 2,
+"value": "Spawn Pos",
+"x": 976,
+"y": 334
+}
+]
+}
+}
+},
+{
+"width": 200
+},
+{
+"width": 472
+},
+{
+"name": "ROOM FOR ADDING MORE PUZZLES AND CHASE DETAILS",
+"width": 128
+},
+{
+"name": "ENTER DOGE PALACE PLACE",
+"width": 480
+},
+{
+"name": "TRY ENTERING DOGE PALACE",
+"width": 720
+},
+{
+"name": "DISGUISE TO ENTER THE PARTY AT SECOND FLOOR",
+"width": 888
+},
+{
+"name": "PARTY AT SECOND FLOOR",
+"width": 376
+},
+{
+"name": "CATCH THE PICKPOCKET",
+"width": 424
+},
+{
+"name": "END",
+"width": 128
+}
+],
+"boxes": [
+{
+"type": 257,
+"id": 1,
+"name": "start",
+"x": 16,
+"y": 256,
+"plugs": [
+{
+"id": 2,
+"type": 3,
+"trgs": [
+48
+]
+}
+],
+"exit": "// Assign an object to the player\r\ncontrol P_HERO O_HERO\r\n\r\n// Change the current player\r\nswitch P_HERO\r\n\r\n// Change the current scene\r\njump S_HOME"
+},
+{
+"type": 260,
+"id": 3,
+"name": "end",
+"comment": "Pickpocket has a real sword, main character has a wooden sword",
+"x": 6048,
+"y": 376,
+"plugs": [
+{
+"id": 4,
+"type": 2
+}
+]
+},
+{
+"type": 258,
+"id": 8,
+"name": "#find_disguise",
+"x": 4800,
+"y": 376,
+"plugs": [
+{
+"id": 9,
+"type": 2
+},
+{
+"id": 10,
+"type": 3,
+"trgs": [
+12
+]
+}
+]
+},
+{
+"type": 262,
+"id": 11,
+"name": "#find_disguise",
+"x": 4920,
+"y": 376,
+"plugs": [
+{
+"id": 12,
+"type": 2
+},
+{
+"id": 13,
+"type": 3,
+"trgs": [
+21
+]
+}
+]
+},
+{
+"type": 256,
+"id": 20,
+"name": "#equip_disguise",
+"x": 5048,
+"y": 376,
+"plugs": [
+{
+"id": 21,
+"type": 2
+},
+{
+"id": 22,
+"type": 3,
+"trgs": [
+24
+]
+}
+]
+},
+{
+"type": 256,
+"id": 23,
+"name": "#access_second_floor",
+"x": 5248,
+"y": 376,
+"plugs": [
+{
+"id": 24,
+"type": 2
+},
+{
+"id": 25,
+"type": 3,
+"trgs": [
+27
+]
+}
+]
+},
+{
+"type": 256,
+"id": 26,
+"name": "#reach_window",
+"x": 5440,
+"y": 376,
+"plugs": [
+{
+"id": 27,
+"type": 2
+},
+{
+"id": 28,
+"type": 3,
+"trgs": [
+159
+]
+}
+]
+},
+{
+"type": 256,
+"id": 29,
+"name": "#stopped_by_guard",
+"value": "Can't enter doge's palace",
+"x": 3592,
+"y": 256,
+"plugs": [
+{
+"id": 30,
+"type": 2
+},
+{
+"id": 31,
+"type": 3,
+"trgs": [
+144
+]
+}
+]
+},
+{
+"type": 256,
+"id": 32,
+"name": "#enter_building",
+"value": "Enter the building next to the doge's palace",
+"x": 4008,
+"y": 256,
+"plugs": [
+{
+"id": 33,
+"type": 2
+},
+{
+"id": 34,
+"type": 3,
+"trgs": [
+147
+]
+}
+]
+},
+{
+"type": 256,
+"id": 41,
+"name": "#arrive_at_doge_plazza",
+"x": 3120,
+"y": 256,
+"plugs": [
+{
+"id": 42,
+"type": 2
+},
+{
+"id": 43,
+"type": 3,
+"trgs": [
+45
+]
+}
+]
+},
+{
+"type": 256,
+"id": 44,
+"name": "#pickpocket_enters_doge_palace_cinematic",
+"x": 3304,
+"y": 256,
+"plugs": [
+{
+"id": 45,
+"type": 2
+},
+{
+"id": 46,
+"type": 3,
+"trgs": [
+30
+]
+}
+]
+},
+{
+"type": 256,
+"id": 47,
+"name": "#intro_cinematic",
+"x": 152,
+"y": 256,
+"plugs": [
+{
+"id": 48,
+"type": 2
+},
+{
+"id": 49,
+"type": 3,
+"trgs": [
+69
+]
+}
+]
+},
+{
+"type": 258,
+"id": 53,
+"name": "#help_artisan_1",
+"x": 688,
+"y": 184,
+"plugs": [
+{
+"id": 54,
+"type": 2
+},
+{
+"id": 55,
+"type": 3,
+"trgs": [
+57
+]
+}
+]
+},
+{
+"type": 262,
+"id": 56,
+"name": "#help_artisan_1",
+"x": 1120,
+"y": 184,
+"plugs": [
+{
+"id": 57,
+"type": 2
+},
+{
+"id": 58,
+"type": 3,
+"trgs": [
+93
+]
+}
+]
+},
+{
+"type": 258,
+"id": 59,
+"name": "#help_artisan_2",
+"value": "Pyrotechnist",
+"x": 536,
+"y": 416,
+"plugs": [
+{
+"id": 60,
+"type": 2
+},
+{
+"id": 61,
+"type": 3,
+"trgs": [
+63
+]
+}
+]
+},
+{
+"type": 262,
+"id": 62,
+"name": "#help_artisan_2",
+"value": "Pyrotechnist",
+"x": 768,
+"y": 416,
+"plugs": [
+{
+"id": 63,
+"type": 2
+},
+{
+"id": 64,
+"type": 3,
+"trgs": [
+111
+]
+}
+]
+},
+{
+"type": 258,
+"id": 68,
+"name": "#morning_tasks",
+"x": 304,
+"y": 256,
+"plugs": [
+{
+"id": 69,
+"type": 2
+},
+{
+"id": 70,
+"type": 3,
+"trgs": [
+99,
+105
+]
+}
+]
+},
+{
+"type": 262,
+"id": 71,
+"name": "#morning_tasks",
+"x": 2136,
+"y": 256,
+"plugs": [
+{
+"id": 72,
+"type": 2
+},
+{
+"id": 73,
+"type": 3,
+"trgs": [
+84
+]
+}
+]
+},
+{
+"type": 258,
+"id": 74,
+"name": "#help_artisan_3",
+"x": 1224,
+"y": 416,
+"plugs": [
+{
+"id": 75,
+"type": 2
+},
+{
+"id": 76,
+"type": 3,
+"trgs": [
+78
+]
+}
+]
+},
+{
+"type": 262,
+"id": 77,
+"name": "#help_artisan_3",
+"x": 1464,
+"y": 416,
+"plugs": [
+{
+"id": 78,
+"type": 2
+},
+{
+"id": 79,
+"type": 3,
+"trgs": [
+114
+]
+}
+]
+},
+{
+"type": 256,
+"id": 80,
+"name": "#play_with_wooden_sword",
+"x": 1472,
+"y": 112,
+"plugs": [
+{
+"id": 81,
+"type": 2
+},
+{
+"id": 82,
+"type": 3,
+"trgs": [
+117
+]
+}
+]
+},
+{
+"type": 256,
+"id": 83,
+"name": "#festivities_start_cinematic",
+"value": "RIALTO BRIDGE",
+"x": 2288,
+"y": 256,
+"plugs": [
+{
+"id": 84,
+"type": 2
+},
+{
+"id": 85,
+"type": 3,
+"trgs": [
+132
+]
+}
+]
+},
+{
+"type": 256,
+"id": 92,
+"name": "#receive_wooden_sword",
+"x": 1296,
+"y": 112,
+"plugs": [
+{
+"id": 93,
+"type": 2
+},
+{
+"id": 94,
+"type": 3,
+"trgs": [
+81
+]
+}
+]
+},
+{
+"type": 256,
+"id": 95,
+"name": "#artisan_3_arrives",
+"x": 984,
+"y": 256,
+"plugs": [
+{
+"id": 96,
+"type": 2
+},
+{
+"id": 97,
+"type": 3,
+"trgs": [
+102
+]
+}
+]
+},
+{
+"type": 256,
+"id": 98,
+"name": "#talk_to_artisan_2",
+"value": "RIALTO BRIDGE",
+"x": 432,
+"y": 256,
+"plugs": [
+{
+"id": 99,
+"type": 2
+},
+{
+"id": 100,
+"type": 3,
+"trgs": [
+60
+]
+}
+]
+},
+{
+"type": 256,
+"id": 101,
+"name": "#talk_to_artisan_3",
+"x": 1120,
+"y": 256,
+"plugs": [
+{
+"id": 102,
+"type": 2
+},
+{
+"id": 103,
+"type": 3,
+"trgs": [
+75
+]
+}
+]
+},
+{
+"type": 256,
+"id": 104,
+"name": "#talk_to_artisan_1",
+"value": "STREET ON THE GRAND CANAL",
+"x": 456,
+"y": 104,
+"plugs": [
+{
+"id": 105,
+"type": 2
+},
+{
+"id": 106,
+"type": 3,
+"trgs": [
+54
+]
+}
+]
+},
+{
+"type": 256,
+"id": 110,
+"name": "#receive_sequin",
+"x": 856,
+"y": 256,
+"plugs": [
+{
+"id": 111,
+"type": 2
+},
+{
+"id": 112,
+"type": 3,
+"trgs": [
+96
+]
+}
+]
+},
+{
+"type": 256,
+"id": 113,
+"name": "#receive_food",
+"x": 1560,
+"y": 256,
+"plugs": [
+{
+"id": 114,
+"type": 2
+},
+{
+"id": 115,
+"type": 3,
+"trgs": [
+117
+]
+}
+]
+},
+{
+"type": 261,
+"id": 116,
+"name": "#morning_end_cinematic",
+"x": 1680,
+"y": 256,
+"plugs": [
+{
+"id": 117,
+"type": 2
+},
+{
+"id": 118,
+"type": 3,
+"trgs": [
+123,
+120
+]
+}
+],
+"choice": 122
+},
+{
+"type": 256,
+"id": 119,
+"name": "#played_with_sword_last",
+"value": "STREET ON THE GRAND CANAL",
+"x": 1880,
+"y": 136,
+"plugs": [
+{
+"id": 120,
+"type": 2
+},
+{
+"id": 121,
+"type": 3,
+"trgs": [
+72
+]
+}
+]
+},
+{
+"type": 256,
+"id": 122,
+"name": "#received_food_last",
+"value": "RIALTO BRIDGE",
+"x": 1920,
+"y": 304,
+"plugs": [
+{
+"id": 123,
+"type": 2
+},
+{
+"id": 124,
+"type": 3,
+"trgs": [
+72
+]
+}
+]
+},
+{
+"type": 256,
+"id": 128,
+"name": "#spot_the_pickpocket",
+"x": 2800,
+"y": 256,
+"plugs": [
+{
+"id": 129,
+"type": 2
+},
+{
+"id": 130,
+"type": 3,
+"trgs": [
+138
+]
+}
+]
+},
+{
+"type": 258,
+"id": 131,
+"name": "#discover_festivities",
+"x": 2488,
+"y": 256,
+"plugs": [
+{
+"id": 132,
+"type": 2
+},
+{
+"id": 133,
+"type": 3,
+"trgs": [
+135
+]
+}
+]
+},
+{
+"type": 262,
+"id": 134,
+"name": "#discover_festivities",
+"x": 2640,
+"y": 256,
+"plugs": [
+{
+"id": 135,
+"type": 2
+},
+{
+"id": 136,
+"type": 3,
+"trgs": [
+129
+]
+}
+]
+},
+{
+"type": 256,
+"id": 137,
+"name": "#chase",
+"x": 2984,
+"y": 256,
+"plugs": [
+{
+"id": 138,
+"type": 2
+},
+{
+"id": 139,
+"type": 3,
+"trgs": [
+42
+]
+}
+]
+},
+{
+"type": 256,
+"id": 140,
+"name": "#stopped_by_organizer",
+"value": "Need disguise + invite",
+"x": 4552,
+"y": 256,
+"plugs": [
+{
+"id": 141,
+"type": 2
+},
+{
+"id": 142,
+"type": 3,
+"trgs": [
+9,
+156
+]
+}
+]
+},
+{
+"type": 256,
+"id": 143,
+"name": "#spot_alternative_entrance",
+"value": "An opened window",
+"comment": "The window is accessible from the building aside.",
+"x": 3808,
+"y": 256,
+"plugs": [
+{
+"id": 144,
+"type": 2
+},
+{
+"id": 145,
+"type": 3,
+"trgs": [
+33
+]
+}
+]
+},
+{
+"type": 256,
+"id": 146,
+"name": "#try_to_access_second_floor",
+"x": 4336,
+"y": 256,
+"plugs": [
+{
+"id": 147,
+"type": 2
+},
+{
+"id": 148,
+"type": 3,
+"trgs": [
+141
+]
+}
+]
+},
+{
+"type": 256,
+"id": 155,
+"name": "#pick_invite",
+"x": 4936,
+"y": 152,
+"plugs": [
+{
+"id": 156,
+"type": 2
+},
+{
+"id": 157,
+"type": 3,
+"trgs": [
+24
+]
+}
+]
+},
+{
+"type": 256,
+"id": 158,
+"name": "#enter_doge_palace",
+"x": 5608,
+"y": 376,
+"plugs": [
+{
+"id": 159,
+"type": 2
+},
+{
+"id": 160,
+"type": 3,
+"trgs": [
+162
+]
+}
+]
+},
+{
+"type": 256,
+"id": 161,
+"name": "#fight_pickpocket",
+"value": "Pickpocket has a real sword",
+"comment": "Pickpocket has a real sword, \r\nmain character has a wooden sword from the introduction",
+"x": 5784,
+"y": 376,
+"plugs": [
+{
+"id": 162,
+"type": 2
+},
+{
+"id": 163,
+"type": 3,
+"trgs": [
+4
+]
+}
+]
+}
+]
+}
+},
+"scenes": [
+{
+"scene": {
+"lightAmbient": -1,
+"lightBlur": -1,
+"layers": {
+"MA": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"MB": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"MC": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"MD": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"FA": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"FB": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"FC": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"FD": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+}
+},
+"nextID": 2,
+"zoom": 55,
+"x": -244,
+"y": -21
+},
+"objects": [
+{
+"uid": "O_HERO",
+"depths": [
+{
+"a": 100,
+"b": 100
+},
+{
+"y": 1024,
+"a": 100,
+"b": 100
+}
+],
+"id": 1,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 910,
+"y": 512,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+}
+],
+"sid": 1,
+"uid": "S_HOME"
+},
+{
+"scene": {
+"lightAmbient": -1,
+"lightBlur": -1,
+"layers": {
+"MA": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"MB": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"MC": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"MD": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"FA": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"FB": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"FC": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"FD": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+}
+},
+"zoom": 75,
+"nextID": 6,
+"x": -317,
+"y": 3479
+},
+"objects": [
+{
+"uid": "O_HERO",
+"depths": [
+{
+"a": 100,
+"b": 100
+},
+{
+"y": 1024,
+"a": 100,
+"b": 100
+}
+],
+"id": 5,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 910,
+"y": 512,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{
+"cells": [
+{
+"col": 93,
+"row": 34
+}
+]
+},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+}
+],
+"sid": 5,
+"uid": "S_RIALTO_BRIDGE"
+}
+],
+"objects": [
+{
+"object": {
+"bbox": true,
+"maxScale": -1,
+"width": 372,
+"height": 400,
+"x": 173,
+"y": 184
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT",
+"frames": [
+{
+"md5": "dcc1315bc4013bc0c913c95ffbe6d098",
+"wtrim": 372,
+"htrim": 400,
+"xdraw": -2,
+"ydraw": -2,
+"wdraw": 376,
+"hdraw": 404
+}
+],
+"count": 1
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 2,
+"uid": "O_HERO",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 372,
+"h": 400
+}
+],
+"packs": [
+{
+"count": 1
+}
+]
+}
+}
+],
+"players": [
+{
+"sid": 3,
+"uid": "P_HERO",
+"player": {
+"scrollSmooth": 50,
+"zoomSmooth": 50,
+"pathColor": -1
+}
+}
+],
+"meta": {
+"nextAssetID": 6
+}
+}
