@@ -1,1 +1,4 @@
 New Game
+Entering Script
+success ok #47
+success failed (box not started) #164/140,
