@@ -1,4 +1,9 @@
 New Game
 Entering Script
 success ok #47
-success failed (box not started) #164/140,
+success ok #164
+Entered Dressing
+Entered Dressing
+Fixing Visibility
+HAS GREEN CLOAK
+ALREADY WEARING IT

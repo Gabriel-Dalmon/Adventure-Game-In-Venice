@@ -125,7 +125,7 @@
 "scenario": {
 "board": {
 "nextid": 167,
-"x": -4029,
+"x": 193,
 "sections": [
 {
 "name": "START",
@@ -218,7 +218,8 @@
 ]
 }
 ],
-"exit": "// Assign an object to the player\r\ncontrol P_HERO OP_HERO\r\n// Change the current player\r\nswitch P_HERO\r\n// Change the current scene\r\njump S_RIALTO_BRIDGE"
+"exit": "// Assign an object to the player\r\ncontrol P_HERO OP_HERO\r\n// Change the current player\r\nswitch P_HERO\r\n// Change the current scene\r\njump S_RIALTO_BRIDGE\r\nset myVar 1\r\nstart_role R_STICK_COSTUME",
+"success": true
 },
 {
 "type": 260,
@@ -252,7 +253,8 @@
 12
 ]
 }
-]
+],
+"success": true
 },
 {
 "type": 262,
@@ -272,7 +274,8 @@
 21
 ]
 }
-]
+],
+"success": true
 },
 {
 "type": 256,
@@ -353,7 +356,8 @@
 144
 ]
 }
-]
+],
+"success": true
 },
 {
 "type": 256,
@@ -374,7 +378,8 @@
 147
 ]
 }
-]
+],
+"success": true
 },
 {
 "type": 256,
@@ -394,7 +399,8 @@
 45
 ]
 }
-]
+],
+"success": true
 },
 {
 "type": 256,
@@ -414,7 +420,8 @@
 30
 ]
 }
-]
+],
+"success": true
 },
 {
 "type": 256,
@@ -436,7 +443,8 @@
 }
 ],
 "enter": "jump S_PRIGIONI_PALACE",
-"exit": "log \"Left First Puzzle\""
+"exit": "log \"Left First Puzzle\"",
+"success": true
 },
 {
 "type": 258,
@@ -457,7 +465,8 @@
 57
 ]
 }
-]
+],
+"success": true
 },
 {
 "type": 262,
@@ -478,7 +487,8 @@
 93
 ]
 }
-]
+],
+"success": true
 },
 {
 "type": 258,
@@ -499,7 +509,8 @@
 63
 ]
 }
-]
+],
+"success": true
 },
 {
 "type": 262,
@@ -520,7 +531,8 @@
 111
 ]
 }
-]
+],
+"success": true
 },
 {
 "type": 258,
@@ -542,7 +554,8 @@
 ]
 }
 ],
-"enter": "// Assign an object to the player\r\ncontrol P_HERO OP_HERO\r\n// Change the current player\r\nswitch P_HERO"
+"enter": "// Assign an object to the player\r\ncontrol P_HERO OP_HERO\r\n// Change the current player\r\nswitch P_HERO",
+"success": true
 },
 {
 "type": 262,
@@ -562,7 +575,8 @@
 84
 ]
 }
-]
+],
+"success": true
 },
 {
 "type": 258,
@@ -582,7 +596,8 @@
 78
 ]
 }
-]
+],
+"success": true
 },
 {
 "type": 262,
@@ -602,7 +617,8 @@
 114
 ]
 }
-]
+],
+"success": true
 },
 {
 "type": 256,
@@ -622,7 +638,8 @@
 117
 ]
 }
-]
+],
+"success": true
 },
 {
 "type": 256,
@@ -643,7 +660,8 @@
 132
 ]
 }
-]
+],
+"success": true
 },
 {
 "type": 256,
@@ -664,7 +682,8 @@
 81
 ]
 }
-]
+],
+"success": true
 },
 {
 "type": 256,
@@ -684,7 +703,8 @@
 102
 ]
 }
-]
+],
+"success": true
 },
 {
 "type": 256,
@@ -705,7 +725,8 @@
 60
 ]
 }
-]
+],
+"success": true
 },
 {
 "type": 256,
@@ -725,7 +746,8 @@
 75
 ]
 }
-]
+],
+"success": true
 },
 {
 "type": 256,
@@ -746,7 +768,8 @@
 54
 ]
 }
-]
+],
+"success": true
 },
 {
 "type": 256,
@@ -766,7 +789,8 @@
 96
 ]
 }
-]
+],
+"success": true
 },
 {
 "type": 256,
@@ -786,7 +810,8 @@
 117
 ]
 }
-]
+],
+"success": true
 },
 {
 "type": 261,
@@ -808,6 +833,7 @@
 ]
 }
 ],
+"success": true,
 "choice": 122
 },
 {
@@ -850,7 +876,8 @@
 72
 ]
 }
-]
+],
+"success": true
 },
 {
 "type": 256,
@@ -870,7 +897,8 @@
 138
 ]
 }
-]
+],
+"success": true
 },
 {
 "type": 258,
@@ -890,7 +918,8 @@
 135
 ]
 }
-]
+],
+"success": true
 },
 {
 "type": 262,
@@ -910,7 +939,8 @@
 129
 ]
 }
-]
+],
+"success": true
 },
 {
 "type": 256,
@@ -930,7 +960,8 @@
 42
 ]
 }
-]
+],
+"success": true
 },
 {
 "type": 256,
@@ -953,7 +984,8 @@
 165
 ]
 }
-]
+],
+"success": true
 },
 {
 "type": 256,
@@ -975,7 +1007,8 @@
 33
 ]
 }
-]
+],
+"success": true
 },
 {
 "type": 256,
@@ -995,7 +1028,8 @@
 141
 ]
 }
-]
+],
+"success": true
 },
 {
 "type": 256,
@@ -1282,10 +1316,10 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 20,
+"zoom": 100,
 "nextID": 10,
-"x": -21,
-"y": -316,
+"x": 513,
+"y": 308,
 "effects": [
 "E_TEST",
 "",
@@ -1347,12 +1381,12 @@
 "uid": "OP_HERO",
 "depths": [
 {
-"a": 100,
+"a": 13,
 "b": 100
 },
 {
 "y": 1024,
-"a": 100,
+"a": 13,
 "b": 100
 }
 ],
@@ -22581,10 +22615,10 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 35,
+"zoom": 10,
 "nextID": 3,
-"x": -482,
-"y": -379,
+"x": -661,
+"y": -214,
 "role": "R_GRAND_CANAL_STREET"
 },
 "objects": [
@@ -22592,12 +22626,12 @@
 "uid": "OP_HERO",
 "depths": [
 {
-"a": 100,
+"a": 27,
 "b": 100
 },
 {
 "y": 1024,
-"a": 100,
+"a": 27,
 "b": 100
 }
 ],
@@ -22608,8 +22642,8 @@
 "",
 ""
 ],
-"x": 1392,
-"y": 3377,
+"x": 382,
+"y": 967,
 "parallax": 100,
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
@@ -31554,14 +31588,100 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 20,
-"nextID": 1,
-"x": -346,
-"y": -136,
+"zoom": 35,
+"nextID": 4,
+"x": -366,
+"y": -80,
 "role": "R_SAINT_MARCO_PLACE"
 },
 "sid": 17,
-"uid": "S_SAINT_MARCO_PLACE"
+"uid": "S_SAINT_MARCO_PLACE",
+"objects": [
+{
+"uid": "OC_GUARD",
+"depths": [
+{
+"a": 67,
+"b": 100
+},
+{
+"y": 1024,
+"a": 67,
+"b": 100
+}
+],
+"id": 1,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 443,
+"y": 934,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+}
+],
+"doors": [
+{
+"name": "PRIGIONI",
+"id": 2,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 1282,
+"y": 500,
+"width": 351,
+"height": 446,
+"title": {
+"en": "PRIGIONI PALACE"
+}
+},
+{
+"name": "DOGES",
+"id": 3,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 247,
+"y": 583,
+"width": 391,
+"height": 380,
+"title": {
+"en": "DOGE'S PALACE"
+}
+}
+]
 },
 {
 "scene": {
@@ -31633,11 +31753,11 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 30,
-"nextID": 8,
+"zoom": 25,
+"nextID": 13,
 "role": "R_PRIGIONI_PALACE",
-"x": -105,
-"y": -224
+"x": 222,
+"y": -117
 },
 "sid": 19,
 "uid": "S_PRIGIONI_PALACE",
@@ -31646,12 +31766,12 @@
 "uid": "OP_HERO",
 "depths": [
 {
-"a": 80,
+"a": 18,
 "b": 100
 },
 {
 "y": 1024,
-"a": 80,
+"a": 18,
 "b": 100
 }
 ],
@@ -31662,10 +31782,10 @@
 "",
 ""
 ],
-"x": 295,
-"y": 1091,
+"x": 3440,
+"y": 1096,
 "parallax": 100,
-"speedX": 600,
+"speedX": 1000,
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
 "lightAngle": 30,
@@ -33099,7 +33219,8 @@
 {},
 {},
 {}
-]
+],
+"placement": "OBJECT"
 },
 {
 "uid": "OI_GREEN_CLOAK",
@@ -33121,8 +33242,8 @@
 "",
 ""
 ],
-"x": 2774,
-"y": 897,
+"x": 2831,
+"y": 490,
 "parallax": 100,
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
@@ -33292,6 +33413,54 @@
 {},
 {}
 ]
+},
+{
+"uid": "OI_PRIGIONI_PARTY_CLOAK",
+"depths": [
+{
+"a": 41,
+"b": 100
+},
+{
+"y": 1024,
+"a": 41,
+"b": 100
+}
+],
+"id": 8,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 3804,
+"y": 402,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
 }
 ],
 "doors": [
@@ -33401,10 +33570,10 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 55,
-"nextID": 7,
-"x": -99,
-"y": -72,
+"zoom": 45,
+"nextID": 9,
+"x": -210,
+"y": -35,
 "role": "R_DRESSING"
 },
 "objects": [
@@ -33417,8 +33586,8 @@
 "",
 ""
 ],
-"x": 900,
-"y": 910,
+"x": 802,
+"y": 852,
 "parallax": 100,
 "drag": "Target",
 "lightAmbient": 255,
@@ -33444,6 +33613,17 @@
 {},
 {},
 {}
+],
+"depths": [
+{
+"a": 24,
+"b": 100
+},
+{
+"y": 1024,
+"a": 24,
+"b": 100
+}
 ]
 },
 {
@@ -33554,8 +33734,8 @@
 ""
 ],
 "visible": 2,
-"x": 1338,
-"y": 887,
+"x": 1171,
+"y": 288,
 "parallax": 100,
 "drag": "Source",
 "lightAmbient": 255,
@@ -33592,9 +33772,72 @@
 "",
 ""
 ],
-"x": 910,
-"y": 512,
+"x": 282,
+"y": 758,
 "parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 37,
+"b": 100
+},
+{
+"y": 1024,
+"a": 37,
+"b": 100
+}
+],
+"visible": 2,
+"drag": "Source"
+},
+{
+"uid": "OI_PRIGIONI_PARTY_MASK",
+"depths": [
+{
+"a": 40,
+"b": 100
+},
+{
+"y": 1024,
+"a": 40,
+"b": 100
+}
+],
+"id": 6,
+"tags": [
+"",
+"",
+"",
+""
+],
+"visible": 2,
+"x": 1174,
+"y": 673,
+"parallax": 100,
+"drag": "Source",
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
 "lightAngle": 30,
@@ -33621,30 +33864,29 @@
 ]
 },
 {
-"uid": "OI_PRIGIONI_PARTY_MASK",
+"uid": "OC_COSTUMER",
 "depths": [
 {
-"a": 40,
+"a": 42,
 "b": 100
 },
 {
 "y": 1024,
-"a": 40,
+"a": 42,
 "b": 100
 }
 ],
-"id": 6,
+"id": 8,
 "tags": [
 "",
 "",
 "",
 ""
 ],
-"visible": 2,
-"x": 1527,
-"y": 295,
+"x": 1203,
+"y": 961,
 "parallax": 100,
-"drag": "Source",
+"drag": "Target",
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
 "lightAngle": 30,
@@ -33672,20 +33914,117 @@
 }
 ],
 "sid": 31,
-"uid": "S_DRESSING"
+"uid": "S_DRESSING",
+"doors": [
+{
+"name": "EXIT",
+"id": 7,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 1401,
+"y": 63,
+"width": 305,
+"height": 855,
+"title": {
+"en": "EXIT"
+}
+}
+]
+},
+{
+"scene": {
+"lightAmbient": -1,
+"lightBlur": -1,
+"layers": {
+"MA": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"MB": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"MC": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"MD": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"FA": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"FB": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"FC": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"FD": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+}
+},
+"zoom": 30,
+"nextID": 1,
+"role": "R_2ND_FLOOR_PRIGIONI_PALACE",
+"x": -356,
+"y": -34
+},
+"sid": 39,
+"uid": "S_2ND_FLOOR_PRIGIONI_PALACE"
 }
 ],
 "objects": [
 {
 "object": {
 "bbox": true,
-"width": 566,
-"height": 800,
-"x": 267,
-"y": 734,
+"width": 2480,
+"height": 3508,
+"x": 1204,
+"y": 3267,
 "speedX": 100,
-"tolerance": 20,
-"maxScale": 100
+"tolerance": 20
 },
 "anims": [
 {
@@ -33695,44 +34034,336 @@
 "loopRangeMax": -1,
 "dirs": [
 {
-"name": "LEFT"
+"name": "LEFT",
+"subs": [
+{}
+]
 },
 {
-"name": "RIGHT"
+"name": "RIGHT",
+"subs": [
+{}
+]
 },
 {
 "name": "FRONT",
 "frames": [
 {
-"md5": "93214468adcfbbcc985af665d52b1c34",
-"wtrim": 280,
-"htrim": 730,
-"xdraw": 134,
-"ydraw": 32,
-"wdraw": 284,
-"hdraw": 734,
-"xtrim": 136,
-"ytrim": 34
+"md5": "589676533209757f1a6814d45b838d30",
+"wtrim": 1244,
+"htrim": 3192,
+"xdraw": 598,
+"ydraw": 152,
+"wdraw": 1248,
+"hdraw": 3196,
+"xtrim": 600,
+"ytrim": 154
 }
 ],
-"count": 1
-},
+"count": 1,
+"subs": [
 {
-"name": "BACK"
-},
-{
-"name": "FL"
-},
-{
-"name": "FR"
-},
-{
-"name": "BL"
-},
-{
-"name": "BR"
+"frames": [
+{}
+]
 }
 ]
+},
+{
+"name": "BACK",
+"subs": [
+{}
+]
+},
+{
+"name": "FL",
+"subs": [
+{}
+]
+},
+{
+"name": "FR",
+"subs": [
+{}
+]
+},
+{
+"name": "BL",
+"subs": [
+{}
+]
+},
+{
+"name": "BR",
+"subs": [
+{}
+]
+}
+],
+"loopCount": -1,
+"flip": true
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT",
+"subs": [
+{
+"frames": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+}
+],
+"frames": [
+{
+"md5": "54ec070568d4ebabe5ede5adbfb8b80c",
+"xtrim": 482,
+"ytrim": 386,
+"wtrim": 1608,
+"htrim": 2970,
+"xdraw": 480,
+"ydraw": 384,
+"wdraw": 1612,
+"hdraw": 2974
+},
+{
+"md5": "797eb93d15d10764f214d1ed869458cf",
+"xtrim": 602,
+"ytrim": 446,
+"wtrim": 1666,
+"htrim": 2860,
+"xdraw": 600,
+"ydraw": 444,
+"wdraw": 1670,
+"hdraw": 2864
+},
+{
+"md5": "4c97ea54e7545c95d245e1af75e7c83d",
+"xtrim": 960,
+"ytrim": 326,
+"wtrim": 934,
+"htrim": 3004,
+"xdraw": 958,
+"ydraw": 324,
+"wdraw": 938,
+"hdraw": 3008
+},
+{
+"md5": "df472381b5b0e9ec7fe367051d93c22e",
+"xtrim": 534,
+"ytrim": 264,
+"wtrim": 1734,
+"htrim": 3042,
+"xdraw": 532,
+"ydraw": 262,
+"wdraw": 1738,
+"hdraw": 3046
+},
+{
+"md5": "ec4a3e0c32a7bbe32b7001185701bc35",
+"xtrim": 482,
+"ytrim": 386,
+"wtrim": 1608,
+"htrim": 2970,
+"xdraw": 480,
+"ydraw": 384,
+"wdraw": 1612,
+"hdraw": 2974
+},
+{
+"md5": "df472381b5b0e9ec7fe367051d93c22e",
+"xtrim": 534,
+"ytrim": 264,
+"wtrim": 1734,
+"htrim": 3042,
+"xdraw": 532,
+"ydraw": 262,
+"wdraw": 1738,
+"hdraw": 3046
+},
+{
+"md5": "4c97ea54e7545c95d245e1af75e7c83d",
+"xtrim": 960,
+"ytrim": 326,
+"wtrim": 934,
+"htrim": 3004,
+"xdraw": 958,
+"ydraw": 324,
+"wdraw": 938,
+"hdraw": 3008
+},
+{
+"md5": "797eb93d15d10764f214d1ed869458cf",
+"xtrim": 602,
+"ytrim": 446,
+"wtrim": 1666,
+"htrim": 2860,
+"xdraw": 600,
+"ydraw": 444,
+"wdraw": 1670,
+"hdraw": 2864
+}
+],
+"count": 8
+},
+{
+"name": "RIGHT",
+"subs": [
+{
+"frames": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+}
+],
+"frames": [
+{
+"md5": "54ec070568d4ebabe5ede5adbfb8b80c",
+"xtrim": 390,
+"ytrim": 386,
+"wtrim": 1608,
+"htrim": 2970,
+"xdraw": 388,
+"ydraw": 384,
+"wdraw": 1612,
+"hdraw": 2974
+},
+{
+"md5": "797eb93d15d10764f214d1ed869458cf",
+"xtrim": 212,
+"ytrim": 446,
+"wtrim": 1666,
+"htrim": 2860,
+"xdraw": 210,
+"ydraw": 444,
+"wdraw": 1670,
+"hdraw": 2864
+},
+{
+"md5": "4c97ea54e7545c95d245e1af75e7c83d",
+"xtrim": 586,
+"ytrim": 326,
+"wtrim": 934,
+"htrim": 3004,
+"xdraw": 584,
+"ydraw": 324,
+"wdraw": 938,
+"hdraw": 3008
+},
+{
+"md5": "df472381b5b0e9ec7fe367051d93c22e",
+"xtrim": 212,
+"ytrim": 264,
+"wtrim": 1734,
+"htrim": 3042,
+"xdraw": 210,
+"ydraw": 262,
+"wdraw": 1738,
+"hdraw": 3046
+},
+{
+"md5": "ec4a3e0c32a7bbe32b7001185701bc35",
+"xtrim": 390,
+"ytrim": 386,
+"wtrim": 1608,
+"htrim": 2970,
+"xdraw": 388,
+"ydraw": 384,
+"wdraw": 1612,
+"hdraw": 2974
+},
+{
+"md5": "df472381b5b0e9ec7fe367051d93c22e",
+"xtrim": 212,
+"ytrim": 264,
+"wtrim": 1734,
+"htrim": 3042,
+"xdraw": 210,
+"ydraw": 262,
+"wdraw": 1738,
+"hdraw": 3046
+},
+{
+"md5": "4c97ea54e7545c95d245e1af75e7c83d",
+"xtrim": 586,
+"ytrim": 326,
+"wtrim": 934,
+"htrim": 3004,
+"xdraw": 584,
+"ydraw": 324,
+"wdraw": 938,
+"hdraw": 3008
+},
+{
+"md5": "797eb93d15d10764f214d1ed869458cf",
+"xtrim": 212,
+"ytrim": 446,
+"wtrim": 1666,
+"htrim": 2860,
+"xdraw": 210,
+"ydraw": 444,
+"wdraw": 1670,
+"hdraw": 2864
+}
+],
+"count": 8
+},
+{
+"name": "FRONT",
+"subs": [
+{}
+]
+},
+{
+"name": "BACK",
+"subs": [
+{}
+]
+},
+{
+"name": "FL",
+"subs": [
+{}
+]
+},
+{
+"name": "FR",
+"subs": [
+{}
+]
+},
+{
+"name": "BL",
+"subs": [
+{}
+]
+},
+{
+"name": "BR",
+"subs": [
+{}
+]
+}
+],
+"loopCount": -1,
+"flip": true
 }
 ],
 "sid": 2,
@@ -33740,19 +34371,136 @@
 "packset": {
 "frames": [
 {
+"index": 4,
 "index2": -1,
 "x": 2,
 "y": 2,
-"w": 280,
-"h": 730
+"w": 1734,
+"h": 2044
+},
+{
+"index": 6,
+"index2": 4
+},
+{
+"index": 7,
+"index2": 3
+},
+{
+"index": 8,
+"index2": 2
+},
+{
+"index": 9,
+"index2": 1,
+"flipped": true
+},
+{
+"index": 10,
+"index2": 2,
+"flipped": true
+},
+{
+"index": 11,
+"index2": 3,
+"flipped": true
+},
+{
+"index": 12,
+"index2": 4,
+"flipped": true
+},
+{
+"index": 13,
+"index2": 5,
+"flipped": true
+},
+{
+"index": 14,
+"index2": 4,
+"flipped": true
+},
+{
+"index": 15,
+"index2": 3,
+"flipped": true
+},
+{
+"index": 16,
+"index2": 2,
+"flipped": true
+},
+{
+"pack": 1,
+"index": 2,
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 1666,
+"h": 2044
+},
+{
+"pack": 2,
+"index": 1,
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 1608,
+"h": 2044
+},
+{
+"pack": 3,
+"index": 5,
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 1608,
+"h": 2044
+},
+{
+"pack": 4,
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 1244,
+"h": 2044
+},
+{
+"pack": 5,
+"index": 3,
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 934,
+"h": 2044
 }
 ],
 "packs": [
 {
+"count": 12
+},
+{
+"count": 1
+},
+{
+"count": 1
+},
+{
+"count": 1
+},
+{
+"count": 1
+},
+{
 "count": 1
 }
 ]
+},
+"subs": [
+{
+"name": "SUB"
 }
+]
 },
 {
 "object": {
@@ -34031,7 +34779,10 @@
 {
 "object": {
 "bbox": true,
-"maxScale": 100
+"width": 672,
+"height": 672,
+"x": 351,
+"y": 582
 },
 "anims": [
 {
@@ -34047,7 +34798,19 @@
 "name": "RIGHT"
 },
 {
-"name": "FRONT"
+"name": "FRONT",
+"frames": [
+{
+"md5": "2b68d0b274daae6b82c3607fcecfbca0",
+"wtrim": 672,
+"htrim": 672,
+"xdraw": -2,
+"ydraw": -2,
+"wdraw": 676,
+"hdraw": 676
+}
+],
+"count": 1
 },
 {
 "name": "BACK"
@@ -34132,7 +34895,23 @@
 }
 ],
 "sid": 22,
-"uid": "OI_PRIGIONI_PARTY_CLOAK"
+"uid": "OI_PRIGIONI_PARTY_CLOAK",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 672,
+"h": 672
+}
+],
+"packs": [
+{
+"count": 1
+}
+]
+}
 },
 {
 "object": {
@@ -35180,6 +35959,252 @@
 }
 ]
 }
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1,
+"width": 500,
+"height": 500,
+"x": 399,
+"y": 620
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT",
+"frames": [
+{
+"md5": "2ef2d08b0d7c04fbe8f12116b3ab292c",
+"xtrim": 80,
+"ytrim": 104,
+"wtrim": 322,
+"htrim": 330,
+"xdraw": 78,
+"ydraw": 102,
+"wdraw": 326,
+"hdraw": 334
+}
+],
+"count": 1
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 38,
+"uid": "OE_PRIGIONI_PARTY_CLOAK",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 322,
+"h": 330
+}
+],
+"packs": [
+{
+"count": 1
+}
+]
+}
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 42,
+"uid": "O_DRESSING_PRIGIONI_PARTY_CLOAK"
 }
 ],
 "players": [
@@ -35187,7 +36212,7 @@
 "sid": 3,
 "uid": "P_HERO",
 "player": {
-"scrollSmooth": 50,
+"scrollSmooth": 20,
 "zoomSmooth": 50,
 "pathColor": -1,
 "tags": [
@@ -35202,7 +36227,7 @@
 }
 ],
 "meta": {
-"nextAssetID": 37
+"nextAssetID": 43
 },
 "roles": [
 {
@@ -35294,7 +36319,7 @@
 },
 "graph": {
 "board": {
-"nextid": 497,
+"nextid": 524,
 "x": 539,
 "y": 540,
 "boxes": [
@@ -35379,9 +36404,9 @@
 },
 "graph": {
 "board": {
-"nextid": 3,
-"x": 595,
-"y": 410,
+"nextid": 10,
+"x": 641,
+"y": 337,
 "boxes": [
 {
 "type": 257,
@@ -35392,6 +36417,61 @@
 "type": 3
 }
 ]
+},
+{
+"type": 1287,
+"id": 3,
+"x": -124,
+"y": 119,
+"plugs": [
+{
+"id": 4,
+"type": 3
+}
+],
+"script": "talk D_GUARD_NO_ACCESS_DOGE_PALACE",
+"varCmp": "==",
+"scene": "S_SAINT_MARCO_PLACE",
+"obj": "OC_GUARD"
+},
+{
+"type": 1283,
+"id": 5,
+"x": -122,
+"y": 244,
+"plugs": [
+{
+"id": 6,
+"type": 3,
+"trgs": [
+8
+]
+}
+],
+"varCmp": "==",
+"scene": "S_SAINT_MARCO_PLACE",
+"door": "PRIGIONI",
+"mode": "WALK"
+},
+{
+"type": 775,
+"id": 7,
+"x": 65,
+"y": 247,
+"plugs": [
+{
+"id": 8,
+"type": 2
+},
+{
+"id": 9,
+"type": 3
+}
+],
+"scene": "S_PRIGIONI_PALACE",
+"durationOut": "0",
+"durationWait": "0",
+"durationIn": "0"
 }
 ]
 }
@@ -35402,9 +36482,9 @@
 "uid": "R_PRIGIONI_PALACE",
 "graph": {
 "board": {
-"nextid": 44,
-"x": 809,
-"y": 476,
+"nextid": 211,
+"x": 640,
+"y": 516,
 "boxes": [
 {
 "type": 257,
@@ -35429,7 +36509,7 @@
 "type": 3
 }
 ],
-"script": "set OI_GREEN_CLOAK_STATE 1\r\nhide OI_GREEN_CLOAK",
+"script": "take P_HERO OI_GREEN_CLOAK",
 "varCmp": "==",
 "scene": "S_PRIGIONI_PALACE",
 "obj": "OI_GREEN_CLOAK"
@@ -35442,7 +36522,10 @@
 "plugs": [
 {
 "id": 9,
-"type": 3
+"type": 3,
+"trgs": [
+125
+]
 }
 ],
 "script": "jump S_DRESSING",
@@ -35455,8 +36538,8 @@
 "type": 256,
 "id": 10,
 "resize": true,
-"width": 142,
-"height": 112,
+"width": 292,
+"height": 109,
 "x": -91,
 "y": -419,
 "name": "Enter Dressing"
@@ -35491,8 +36574,8 @@
 "type": 256,
 "id": 35,
 "resize": true,
-"width": 354,
-"height": 158,
+"width": 515,
+"height": 160,
 "x": -289,
 "y": -448,
 "name": "Doors"
@@ -35542,12 +36625,15 @@
 {
 "type": 1287,
 "id": 41,
-"x": -293,
-"y": 158,
+"x": -434,
+"y": 101,
 "plugs": [
 {
 "id": 42,
-"type": 3
+"type": 3,
+"trgs": [
+86
+]
 }
 ],
 "script": "if unresolved #enter_dressing\r\n\ttalk D_GUARD_NO_DISGUISE\r\nelse_if unresolved #equip_disguise\r\n\ttalk D_GUARD_DISGUISE_FOUND\r\nelse\r\n\ttalk D_GUARD_DISGUISE_FOUND\r\nend",
@@ -35559,11 +36645,135 @@
 "type": 256,
 "id": 43,
 "resize": true,
-"width": 151,
-"height": 116,
-"x": -306,
-"y": 129,
+"width": 584,
+"height": 232,
+"x": -447,
+"y": 72,
 "name": "Guard Dialogs"
+},
+{
+"type": 1287,
+"id": 44,
+"x": -111,
+"y": -89,
+"plugs": [
+{
+"id": 45,
+"type": 3
+}
+],
+"script": "set OI_PRIGIONI_PARTY_CLOAK_STATE 1\r\nhide OI_PRIGIONI_PARTY_CLOAK",
+"varCmp": "==",
+"scene": "S_PRIGIONI_PALACE",
+"obj": "OI_PRIGIONI_PARTY_CLOAK"
+},
+{
+"type": 1031,
+"id": 85,
+"x": -272,
+"y": 103,
+"plugs": [
+{
+"id": 86,
+"type": 2
+},
+{
+"id": 87,
+"type": 3,
+"trgs": [
+104
+]
+},
+{
+"id": 88,
+"type": 3
+},
+{
+"id": 89,
+"type": 3,
+"trgs": [
+98
+]
+},
+{
+"id": 90,
+"type": 3
+}
+],
+"puzzle": "#enter_dressing"
+},
+{
+"type": 781,
+"id": 97,
+"x": -151,
+"y": 238,
+"plugs": [
+{
+"id": 98,
+"type": 2
+},
+{
+"id": 99,
+"type": 3
+}
+],
+"dialog": "D_GUARD_NO_DISGUISE"
+},
+{
+"type": 513,
+"id": 103,
+"comment": "Check if disguise is correct",
+"x": -36,
+"y": 109,
+"plugs": [
+{
+"id": 104,
+"type": 2
+},
+{
+"id": 105,
+"type": 3
+}
+],
+"script": "alert \"Puzzle Resolved\"\r\nif var V_CLOTHE \"OI_PRIGIONI_PARTY_CLOAK\"\r\n\tif var V_CLOTHE \"OI_PRIGIONI_PARTY_CLOAK\"\r\n\t\tif var V_CLOTHE \"OI_PRIGIONI_PARTY_CLOAK\"\r\n\t\t\ttalk D_GUARD_DISGUISE_FOUND\r\n\t\t\tsuccess #equip_disguise\r\n\t\t\treturn\r\n\t\tend\r\n\tend\r\nend\r\n\r\ntalk D_GUARD_WRONG_DISGUISE",
+"plugCount": 1
+},
+{
+"type": 780,
+"id": 124,
+"x": 70,
+"y": -394,
+"plugs": [
+{
+"id": 125,
+"type": 2
+},
+{
+"id": 126,
+"type": 3
+}
+],
+"script": "alert \"Entered Dressing\"",
+"puzzle": "#enter_dressing"
+},
+{
+"type": 513,
+"id": 181,
+"comment": "Check if disguise is correct",
+"x": 414,
+"y": 136,
+"plugs": [
+{
+"id": 182,
+"type": 2
+},
+{
+"id": 183,
+"type": 3
+}
+],
+"script": "alert \"Puzzle Resolved\"\r\nif has P_HERO OI_PRIGIONI_PARTY_MASK OE_PRIGIONI_PARTY_CLOAK OI_PRIGIONI_PARTY_BOOTS\r\n\talert \"Correct Costume\"\r\n\tif has P_HERO OI_GREEN_CLOAK OI_BLACK_DRESS\r\n\t\talert \"Too much\"\r\n\t\ttalk D_GUARD_WRONG_DISGUISE\r\n\telse\r\n\t\talert \"Disguise Found\"\r\n\t\ttalk D_GUARD_DISGUISE_FOUND\r\n\t\tsuccess #equip_disguise\r\n\tend\r\nelse\r\n\ttalk D_GUARD_WRONG_DISGUISE\r\nend",
+"plugCount": 1
 }
 ]
 }
@@ -35574,21 +36784,21 @@
 "uid": "R_DRESSING",
 "graph": {
 "board": {
-"nextid": 89,
-"x": 646,
-"y": 549,
+"nextid": 725,
+"x": 377,
+"y": 496,
 "boxes": [
 {
 "type": 257,
 "id": 1,
-"x": -139,
-"y": 24,
+"x": -129,
+"y": 52,
 "plugs": [
 {
 "id": 2,
 "type": 3,
 "trgs": [
-78
+690
 ]
 }
 ]
@@ -35604,7 +36814,7 @@
 "type": 3
 }
 ],
-"script": "take P_HERO OI_GREEN_CLOAK\r\n\r\n",
+"script": "set V_CLOTHE \"OI_GREEN_CLOAK\"",
 "varCmp": "==",
 "obj": "OP_HERO",
 "obj2": "OI_GREEN_CLOAK"
@@ -35620,7 +36830,7 @@
 "type": 3
 }
 ],
-"script": "take P_HERO OI_PRIGIONI_PARTY_BOOTS\r\n\r\n",
+"script": "set V_CLOTHE \"OI_PRIGIONI_PARTY_BOOTS\"",
 "varCmp": "==",
 "obj": "OP_HERO",
 "obj2": "OI_PRIGIONI_PARTY_BOOTS"
@@ -35636,48 +36846,107 @@
 "type": 3
 }
 ],
-"script": "take P_HERO OI_PRIGIONI_PARTY_MASK\r\n\r\n",
+"script": "set V_HAT \"OI_PRIGIONI_PARTY_MASK\"",
 "varCmp": "==",
 "obj": "OP_HERO",
 "obj2": "OI_PRIGIONI_PARTY_MASK"
 },
 {
-"type": 780,
-"id": 74,
-"x": 113,
-"y": 26,
+"type": 1290,
+"id": 98,
+"x": -129,
+"y": -418,
 "plugs": [
 {
-"id": 75,
-"type": 2
-},
-{
-"id": 76,
+"id": 99,
 "type": 3
 }
 ],
-"puzzle": "#enter_dressing"
+"script": "set V_CLOTHE \"OI_PRIGIONI_PARTY_CLOAK\"",
+"varCmp": "==",
+"obj": "OP_HERO",
+"obj2": "OI_PRIGIONI_PARTY_CLOAK"
 },
 {
-"type": 513,
-"id": 77,
-"x": -19,
-"y": 25,
+"type": 1283,
+"id": 189,
+"x": -135,
+"y": 219,
 "plugs": [
 {
-"id": 78,
-"type": 2
-},
-{
-"id": 79,
+"id": 190,
 "type": 3,
 "trgs": [
-75
+678
 ]
 }
 ],
-"script": "if var OI_PRIGIONI_PARTY_BOOT_STATE 1\r\n\tshow OI_PRIGIONI_PARTY_MASK\r\nend\r\n\r\nif var OI_PRIGIONI_PARTY_BOOTS_STATE 1\r\n\tshow OI_PRIGIONI_PARTY_BOOTS\r\nend\r\n\r\nif var OI_GREEN_CLOAK_STATE 1\r\n\tshow OI_GREEN_CLOAK\r\nend",
+"varCmp": "==",
+"scene": "S_DRESSING",
+"door": "EXIT",
+"mode": "WALK"
+},
+{
+"type": 775,
+"id": 677,
+"x": 15,
+"y": 218,
+"plugs": [
+{
+"id": 678,
+"type": 2
+},
+{
+"id": 679,
+"type": 3
+}
+],
+"scene": "S_PRIGIONI_PALACE",
+"durationOut": "0",
+"durationWait": "0",
+"durationIn": "0"
+},
+{
+"type": 513,
+"id": 689,
+"comment": "RESET DRESSING VISIBILITY",
+"x": 57,
+"y": 55,
+"plugs": [
+{
+"id": 690,
+"type": 2
+},
+{
+"id": 691,
+"type": 3
+}
+],
+"script": "alert \"Fixing Visibility\"\r\nif has P_HERO OI_PRIGIONI_PARTY_MASK\r\n\tif_not equal V_HAT \"OI_PRIGIONI_PARTY_MASK\"\r\n\t\tshow OI_PRIGIONI_PARTY_MASK\r\n\tend\r\nend\r\nif has P_HERO OI_PRIGIONI_PARTY_CLOAK\r\n\tif_not equal V_CLOTHE \"OI_PRIGIONI_PARTY_CLOAK\"\r\n\t\tshow OI_PRIGIONI_PARTY_CLOAK\r\n\tend\r\nend\r\nif has P_HERO OI_PRIGIONI_PARTY_BOOTS\r\n\tif_not equal V_SHOES \"OI_PRIGIONI_PARTY_BOOTS\"\r\n\t\tshow OI_PRIGIONI_PARTY_BOOTS\r\n\tend\r\nend\r\nif has P_HERO OI_GREEN_CLOAK\r\n\talert \"HAS GREEN CLOAK\"\r\n\tif_not equal V_CLOTHE \"OI_GREEN_CLOAK\"\r\n\t\talert \"ALREADY WEARING IT\"\r\n\t\tshow OI_PRIGIONI_PARTY_CLOAK\r\n\tend\r\nend",
 "plugCount": 1
+}
+]
+}
+}
+},
+{
+"sid": 40,
+"uid": "R_2ND_FLOOR_PRIGIONI_PALACE",
+"graph": {
+"board": {
+"nextid": 3,
+"x": 579,
+"y": 410,
+"boxes": [
+{
+"type": 257,
+"id": 1,
+"plugs": [
+{
+"id": 2,
+"type": 3
+}
+]
 }
 ]
 }
@@ -35773,7 +37042,30 @@
 "sid": 35,
 "uid": "D_GUARD_DISGUISE_FOUND",
 "dialog": {
-"nextID": 1
+"nextID": 3,
+"sentence": {
+"sentences": [
+{
+"id": 1,
+"text": {
+"en": "You vaguely remind me of someone, but your disguise is so good I can't tell who."
+},
+"sentences": [
+{
+"id": 2,
+"text": {
+"en": "Enjoy the party Sir !"
+},
+"speaker": "OC_GUARD",
+"lookat": "OP_HERO",
+"script": "jump S_2ND_FLOOR_PRIGIONI_PALACE"
+}
+],
+"speaker": "OC_GUARD",
+"lookat": "OP_HERO"
+}
+]
+}
 }
 },
 {
@@ -35803,6 +37095,13 @@
 ]
 },
 "nextID": 3
+}
+},
+{
+"sid": 41,
+"uid": "D_GUARD_NO_ACCESS_DOGE_PALACE",
+"dialog": {
+"nextID": 1
 }
 }
 ],
