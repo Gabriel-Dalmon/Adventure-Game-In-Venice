@@ -4,6 +4,3 @@ success ok #47
 success ok #164
 Entered Dressing
 Entered Dressing
-Fixing Visibility
-HAS GREEN CLOAK
-ALREADY WEARING IT

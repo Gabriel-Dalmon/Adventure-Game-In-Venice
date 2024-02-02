@@ -5,112 +5,136 @@
 "md5": "d648340f0f4057beb0153395f5532663"
 },
 {
-"path": "asset\\object\\oc_guard\\pack\\0000.png",
-"md5": "0b8e1480482d188acb8b9ea298c60c4d"
-},
-{
-"path": "asset\\object\\oc_costumer\\pack\\0000.png",
-"md5": "3c85903b5027d911784d77743798ff70"
-},
-{
-"path": "asset\\object\\op_hero\\pack\\0005.png",
-"md5": "0234aa809f5efda3b81243d8ad3f5b91"
-},
-{
-"path": "image\\layout_player.png",
-"md5": "d92e6a155ac70fa273812b8130da1283"
-},
-{
-"path": "asset\\object\\op_hero\\pack\\0002.png",
-"md5": "d713544e7794160104464a34339917b6"
-},
-{
-"path": "image\\cursor.png",
-"md5": "694d3ff72303b4f1008284334cc2e6f9"
-},
-{
-"path": "asset\\object\\oe_prigioni_party_cloak\\pack\\0000.png",
-"md5": "b3aa896d4fd6d505866384936affa0b9"
-},
-{
-"path": "asset\\object\\oi_prigioni_party_cloak\\icon\\0.png",
-"md5": "3217d5d8b82f37cb3fc69fd98f3742ac"
-},
-{
-"path": "image\\layout_menu.png",
-"md5": "3ebc19959c22cfcb8e6832b2cf46868b"
+"path": "asset\\object\\oe_prigioni_party_boots\\pack\\0000.png",
+"md5": "a9e26b7aa4c81b4998a30579156aa0fc"
 },
 {
 "path": "asset\\object\\oi_prigioni_party_mask\\icon\\0.png",
 "md5": "5ea46911ab435c583a792aacc5a2c737"
 },
 {
-"path": "image\\layout_autosave.png",
-"md5": "11b6a6c26f45c329ae072523cc78744c"
-},
-{
-"path": "asset\\object\\oi_prigioni_party_cloak\\pack\\0000.png",
-"md5": "60ff2d1c6eaaf675d4297764d92725ab"
-},
-{
-"path": "image\\layout_bag.png",
-"md5": "237f560f267695808865819a6b246832"
-},
-{
-"path": "asset\\object\\oi_prigioni_party_mask\\pack\\0000.png",
-"md5": "f62c1626d6f75dba4e918ac727ed43c5"
-},
-{
-"path": "image\\layout_object.png",
-"md5": "0f9f9af95a60f2fd82b8219072eb43bb"
-},
-{
-"path": "asset\\object\\oi_green_cloak\\icon\\0.png",
-"md5": "91a51d261bf7e4ec5e81fdc858dc942d"
+"path": "image\\cursor.png",
+"md5": "694d3ff72303b4f1008284334cc2e6f9"
 },
 {
 "path": "asset\\object\\op_hero\\pack\\0000.png",
 "md5": "b797f0121c012e4d96b7718399f0559e"
 },
 {
-"path": "image\\layout_object_next.png",
-"md5": "215eaaf395b3846d97b7a216aa1532a0"
+"path": "asset\\object\\oe_green_cloak\\icon\\0.png",
+"md5": "9c0b5b75a86fa264f0864977411a7a66"
 },
 {
-"path": "asset\\object\\op_hero\\pack\\0001.png",
-"md5": "1ef5c87c09273cd94355943c6da24b3a"
+"path": "asset\\object\\oi_green_cloak\\icon\\0.png",
+"md5": "91a51d261bf7e4ec5e81fdc858dc942d"
 },
 {
-"path": "image\\layout_object_prev.png",
-"md5": "5e903829a7200afff6c700d6a9813720"
+"path": "image\\layout_player.png",
+"md5": "d92e6a155ac70fa273812b8130da1283"
 },
 {
-"path": "asset\\object\\oi_green_cloak\\pack\\0000.png",
-"md5": "df28ebd5a2e47351e49cc6e6401d2b97"
+"path": "image\\layout_menu.png",
+"md5": "3ebc19959c22cfcb8e6832b2cf46868b"
 },
 {
-"path": "asset\\object\\op_hero\\pack\\0003.png",
-"md5": "bba7cad16a19576241f73ce36795e80a"
+"path": "asset\\object\\oe_prigioni_party_cloak\\pack\\0000.png",
+"md5": "b3aa896d4fd6d505866384936affa0b9"
 },
 {
-"path": "image\\layout_shutup.png",
-"md5": "a5170c4a79291c9bea4e8c85a2b4b9b7"
+"path": "asset\\object\\op_hero\\pack\\0002.png",
+"md5": "d713544e7794160104464a34339917b6"
 },
 {
-"path": "asset\\object\\oi_prigioni_party_boots\\icon\\0.png",
-"md5": "cc09e923aba68d071d12f61a3aff0191"
+"path": "asset\\object\\oc_guard\\pack\\0000.png",
+"md5": "0b8e1480482d188acb8b9ea298c60c4d"
+},
+{
+"path": "asset\\object\\oe_prigioni_party_mask\\icon\\0.png",
+"md5": "e358d64357321f789e34977d6d26939e"
 },
 {
 "path": "asset\\object\\op_hero\\pack\\0004.png",
 "md5": "1848d31048c61e5222be118c6d320ab9"
 },
 {
+"path": "image\\layout_autosave.png",
+"md5": "11b6a6c26f45c329ae072523cc78744c"
+},
+{
+"path": "asset\\object\\oi_prigioni_party_mask\\pack\\0000.png",
+"md5": "f62c1626d6f75dba4e918ac727ed43c5"
+},
+{
+"path": "image\\layout_bag.png",
+"md5": "237f560f267695808865819a6b246832"
+},
+{
+"path": "asset\\object\\op_hero\\pack\\0001.png",
+"md5": "1ef5c87c09273cd94355943c6da24b3a"
+},
+{
+"path": "asset\\object\\oe_green_cloak\\pack\\0000.png",
+"md5": "df28ebd5a2e47351e49cc6e6401d2b97"
+},
+{
+"path": "image\\layout_shutup.png",
+"md5": "a5170c4a79291c9bea4e8c85a2b4b9b7"
+},
+{
+"path": "asset\\object\\oi_prigioni_party_cloak\\icon\\0.png",
+"md5": "3217d5d8b82f37cb3fc69fd98f3742ac"
+},
+{
 "path": "image\\menu.png",
 "md5": "c1151c4b7cf9c16beee9edf9a18738c3"
 },
 {
+"path": "asset\\object\\oi_prigioni_party_cloak\\pack\\0000.png",
+"md5": "60ff2d1c6eaaf675d4297764d92725ab"
+},
+{
+"path": "asset\\object\\oc_costumer\\pack\\0000.png",
+"md5": "3c85903b5027d911784d77743798ff70"
+},
+{
+"path": "asset\\object\\op_hero\\pack\\0003.png",
+"md5": "bba7cad16a19576241f73ce36795e80a"
+},
+{
+"path": "image\\layout_object.png",
+"md5": "0f9f9af95a60f2fd82b8219072eb43bb"
+},
+{
+"path": "asset\\object\\oe_prigioni_party_mask\\pack\\0000.png",
+"md5": "8a59a708e6d7901f043f43b2bffd49e6"
+},
+{
+"path": "image\\layout_object_next.png",
+"md5": "215eaaf395b3846d97b7a216aa1532a0"
+},
+{
+"path": "asset\\object\\oi_green_cloak\\pack\\0000.png",
+"md5": "df28ebd5a2e47351e49cc6e6401d2b97"
+},
+{
+"path": "asset\\object\\op_hero\\pack\\0005.png",
+"md5": "0234aa809f5efda3b81243d8ad3f5b91"
+},
+{
+"path": "image\\layout_object_prev.png",
+"md5": "5e903829a7200afff6c700d6a9813720"
+},
+{
 "path": "asset\\object\\oi_prigioni_party_boots\\pack\\0000.png",
 "md5": "dbad11b60582bfdd1b6abbec6dd9597f"
+},
+{
+"path": "asset\\object\\oe_prigioni_party_boots\\icon\\0.png",
+"md5": "77814c12b6d8bd4133c0ee3563849813"
+},
+{
+"path": "asset\\object\\oi_prigioni_party_boots\\icon\\0.png",
+"md5": "cc09e923aba68d071d12f61a3aff0191"
 },
 {
 "path": "asset\\player\\p_hero\\icon\\0.png",
