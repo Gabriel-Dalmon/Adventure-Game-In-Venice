@@ -125,7 +125,7 @@
 "scenario": {
 "board": {
 "nextid": 167,
-"x": 193,
+"x": 65,
 "sections": [
 {
 "name": "START",
@@ -38051,15 +38051,15 @@
 ],
 "frames": [
 {
-"md5": "54ec070568d4ebabe5ede5adbfb8b80c",
-"xtrim": 482,
-"ytrim": 386,
-"wtrim": 1608,
-"htrim": 2970,
-"xdraw": 480,
-"ydraw": 384,
-"wdraw": 1612,
-"hdraw": 2974
+"md5": "c721794adac1be635a0f4ec355642e8f",
+"xtrim": 468,
+"ytrim": 294,
+"wtrim": 1622,
+"htrim": 3062,
+"xdraw": 466,
+"ydraw": 292,
+"wdraw": 1626,
+"hdraw": 3066
 },
 {
 "md5": "797eb93d15d10764f214d1ed869458cf",
@@ -38159,15 +38159,15 @@
 ],
 "frames": [
 {
-"md5": "54ec070568d4ebabe5ede5adbfb8b80c",
+"md5": "c721794adac1be635a0f4ec355642e8f",
 "xtrim": 390,
-"ytrim": 386,
-"wtrim": 1608,
-"htrim": 2970,
+"ytrim": 294,
+"wtrim": 1622,
+"htrim": 3062,
 "xdraw": 388,
-"ydraw": 384,
-"wdraw": 1612,
-"hdraw": 2974
+"ydraw": 292,
+"wdraw": 1626,
+"hdraw": 3066
 },
 {
 "md5": "797eb93d15d10764f214d1ed869458cf",
@@ -38369,7 +38369,7 @@
 "index2": -1,
 "x": 2,
 "y": 2,
-"w": 1608,
+"w": 1622,
 "h": 2044
 },
 {
